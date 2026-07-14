@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================== App ===================== -->
+    <string name="app_name">MedDose</string>
+    <string name="app_tagline">Your trusted medication companion</string>
+
+    <!-- ===================== Common / Shared ===================== -->
+    <string name="back">Back</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="close">Close</string>
+    <string name="error_title">Error</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="unknown_error">An unexpected error occurred</string>
+    <string name="try_again">Try again</string>
+
+    <!-- ===================== Splash Screen ===================== -->
+    <string name="splash_app_name">MedDose</string>
+    <string name="splash_tagline">Never miss a dose again</string>
+
+    <!-- ===================== Onboarding — Step 1 (Welcome) ===================== -->
+    <string name="onboarding_step_1_of_3">Step 1 of 3</string>
+    <string name="onboarding_welcome_title">Welcome to MedDose</string>
+    <string name="onboarding_welcome_subtitle">Your personal medication companion. Let\'s get started with a few quick questions.</string>
+    <string name="onboarding_name_label">Your Name</string>
+    <string name="onboarding_name_hint">Enter your full name</string>
+    <string name="onboarding_name_error">Please enter your name to continue</string>
+    <string name="onboarding_btn_continue">Continue</string>
+
+    <!-- ===================== Onboarding — Step 2 (Role) ===================== -->
+    <string name="onboarding_step_2_of_3">Step 2 of 3</string>
+    <string name="onboarding_role_title">How will you use MedDose?</string>
+    <string name="onboarding_role_subtitle">This helps us personalise your experience.</string>
+    <string name="onboarding_role_patient">I am a Patient</string>
+    <string name="onboarding_role_patient_desc">Manage my own medications and reminders</string>
+    <string name="onboarding_role_caregiver">I am a Caregiver</string>
+    <string name="onboarding_role_caregiver_desc">Help someone I love stay on track</string>
+    <string name="onboarding_role_error">Please select a role to continue</string>
+
+    <!-- ===================== Onboarding — Step 3 (Notifications) ===================== -->
+    <string name="onboarding_step_3_of_3">Step 3 of 3</string>
+    <string name="onboarding_notif_title">Stay on track</string>
+    <string name="onboarding_notif_subtitle">Allow notifications so MedDose can remind you at exactly the right time.</string>
+    <string name="onboarding_notif_why_title">Why we need this</string>
+    <string name="onboarding_notif_why_desc">Without notifications, reminders cannot reach you — even if the app is closed.</string>
+    <string name="onboarding_notif_allow_btn">Allow Notifications</string>
+    <string name="onboarding_notif_skip_btn">Not now</string>
+    <string name="onboarding_get_started">Get Started</string>
+
+    <!-- ===================== Home / Dashboard ===================== -->
+    <string name="home_title">MedDose</string>
+    <string name="home_greeting_patient">Good morning, %s 👋</string>
+    <string name="home_greeting_caregiver">Hello, %s 👋</string>
+    <string name="home_progress_label">%1$d of %2$d medicines taken</string>
+    <string name="home_todays_medicines">Today\'s Medicines</string>
+    <string name="home_all_done">You\'re all caught up! 🎉</string>
+    <string name="home_section_morning">Morning</string>
+    <string name="home_section_afternoon">Afternoon</string>
+    <string name="home_section_evening">Evening</string>
+    <string name="home_section_night">Night</string>
+    <string name="home_fab_add">Add Medication</string>
+    <string name="home_empty_title">No medications added yet</string>
+    <string name="home_empty_desc">Tap the + button below to add your first medication and set up reminders.</string>
+    <string name="home_empty_cta">Add Your First Medication</string>
+
+    <!-- ===================== Dose Card Status Badges ===================== -->
+    <string name="status_pending">Pending</string>
+    <string name="status_taken">Taken</string>
+    <string name="status_missed">Missed</string>
+    <string name="status_snoozed">Snoozed</string>
+    <string name="status_skipped">Skipped</string>
+    <string name="status_upcoming">Upcoming</string>
+    <string name="status_scheduled">Scheduled</string>
+
+    <!-- ===================== Dose Card Actions ===================== -->
+    <string name="dose_action_mark_taken">Mark as Taken</string>
+    <string name="dose_action_snooze">Snooze 10 min</string>
+    <string name="dose_action_skip">Skip this dose</string>
+    <string name="dose_taken_at">Taken at %s</string>
+    <string name="dose_scheduled_at">Scheduled for %s</string>
+    <string name="dose_missed_at">Missed at %s</string>
+
+    <!-- ===================== Add Medication Screen ===================== -->
+    <string name="add_med_title">Add Medication</string>
+    <string name="add_med_name_label">Medication Name</string>
+    <string name="add_med_name_hint">e.g. Metformin</string>
+    <string name="add_med_name_error">Medication name is required</string>
+    <string name="add_med_dosage_label">Dosage</string>
+    <string name="add_med_dosage_hint">e.g. 500mg, 1 tablet</string>
+    <string name="add_med_dosage_error">Dosage is required</string>
+    <string name="add_med_type_label">Medication Type</string>
+    <string name="add_med_type_tablet">Tablet / Capsule</string>
+    <string name="add_med_type_liquid">Liquid / Syrup</string>
+    <string name="add_med_type_injection">Injection</string>
+    <string name="add_med_type_other">Other</string>
+    <string name="add_med_frequency_label">Frequency</string>
+    <string name="add_med_frequency_once">Once daily</string>
+    <string name="add_med_frequency_twice">Twice daily</string>
+    <string name="add_med_frequency_thrice">Three times daily</string>
+    <string name="add_med_frequency_custom">Custom</string>
+    <string name="add_med_times_label">Reminder Times</string>
+    <string name="add_med_add_time">+ Add Time</string>
+    <string name="add_med_start_date_label">Start Date</string>
+    <string name="add_med_end_date_label">End Date (optional)</string>
+    <string name="add_med_end_date_hint">Leave blank for ongoing</string>
+    <string name="add_med_notes_label">Notes (optional)</string>
+    <string name="add_med_notes_hint">e.g. Take with food</string>
+    <string name="add_med_save_btn">Save Medication</string>
+    <string name="add_med_free_limit_title">Free tier limit reached</string>
+    <string name="add_med_free_limit_desc">You can add up to 3 medications on the free plan. Upgrade to Premium for unlimited medications.</string>
+    <string name="add_med_upgrade_btn">Upgrade to Premium</string>
+    <string name="add_med_success_toast">Medication saved! Reminders scheduled ✅</string>
+
+    <!-- ===================== Medication List Screen ===================== -->
+    <string name="med_list_title">My Medications</string>
+    <string name="med_list_empty_title">No medications yet</string>
+    <string name="med_list_empty_desc">Add your first medication to start tracking your doses.</string>
+    <string name="med_list_add_btn">Add Medication</string>
+    <string name="med_list_active_badge">Active</string>
+    <string name="med_list_inactive_badge">Paused</string>
+    <string name="med_list_swipe_delete">Swipe to delete</string>
+
+    <!-- ===================== Medication Detail Screen ===================== -->
+    <string name="med_detail_title">Medication Details</string>
+    <string name="med_detail_dosage_label">Dosage</string>
+    <string name="med_detail_frequency_label">Frequency</string>
+    <string name="med_detail_times_label">Reminder Times</string>
+    <string name="med_detail_start_label">Start Date</string>
+    <string name="med_detail_end_label">End Date</string>
+    <string name="med_detail_end_ongoing">Ongoing</string>
+    <string name="med_detail_notes_label">Notes</string>
+    <string name="med_detail_adherence_label">This Week\'s Adherence</string>
+    <string name="med_detail_edit_btn">Edit Medication</string>
+    <string name="med_detail_delete_btn">Delete Medication</string>
+    <string name="med_detail_delete_confirm_title">Delete medication?</string>
+    <string name="med_detail_delete_confirm_desc">This will permanently delete %s and all its reminders. This action cannot be undone.</string>
+    <string name="med_detail_pause_btn">Pause Reminders</string>
+    <string name="med_detail_resume_btn">Resume Reminders</string>
+
+    <!-- ===================== Dose Confirmation Screen ===================== -->
+    <string name="dose_confirm_title">Mark Dose Taken</string>
+    <string name="dose_confirm_subtitle">Great! Confirm you\'ve taken your medication.</string>
+    <string name="dose_confirm_med_name_label">Medication</string>
+    <string name="dose_confirm_dosage_label">Dosage</string>
+    <string name="dose_confirm_time_label">Scheduled Time</string>
+    <string name="dose_confirm_taken_now_btn">Yes, I Took It ✅</string>
+    <string name="dose_confirm_snooze_btn">Remind Me in 10 Minutes</string>
+    <string name="dose_confirm_skip_btn">Skip This Dose</string>
+    <string name="dose_confirm_success_title">Well done! 🎉</string>
+    <string name="dose_confirm_success_desc">Your dose has been logged. Keep up the great work!</string>
+    <string name="dose_skip_reason_title">Why are you skipping?</string>
+    <string name="dose_skip_reason_forgot">I forgot earlier</string>
+    <string name="dose_skip_reason_side_effect">Side effects</string>
+    <string name="dose_skip_reason_out_of_stock">Out of stock</string>
+    <string name="dose_skip_reason_other">Other reason</string>
+
+    <!-- ===================== History Screen ===================== -->
+    <string name="history_title">Dose History</string>
+    <string name="history_tab_7_days">7 Days</string>
+    <string name="history_tab_30_days">30 Days</string>
+    <string name="history_adherence_label">Adherence Score</string>
+    <string name="history_adherence_percent">%d%%</string>
+    <string name="history_adherence_great">Excellent! Keep it up 🌟</string>
+    <string name="history_adherence_good">Good work! You\'re on track 👍</string>
+    <string name="history_adherence_fair">You can do better — stay consistent 💪</string>
+    <string name="history_adherence_poor">Please try to follow your schedule ❤️</string>
+    <string name="history_taken_label">Taken</string>
+    <string name="history_missed_label">Missed</string>
+    <string name="history_skipped_label">Skipped</string>
+    <string name="history_empty_title">No history yet</string>
+    <string name="history_empty_desc">Your dose log will appear here once you start marking doses.</string>
+    <string name="history_today">Today</string>
+    <string name="history_yesterday">Yesterday</string>
+
+    <!-- ===================== Notification / Reminder ===================== -->
+    <string name="notif_channel_name">Medication Reminders</string>
+    <string name="notif_channel_desc">Alerts to remind you to take your medications on time</string>
+    <string name="notif_title">Time for %s 💊</string>
+    <string name="notif_body">%s · Tap to mark as taken</string>
+    <string name="notif_action_taken">Mark Taken</string>
+    <string name="notif_action_snooze">Snooze 10 min</string>
+    <string name="notif_missed_title">Missed dose: %s</string>
+    <string name="notif_missed_body">You missed your %s dose. Your caregiver has been notified.</string>
+
+    <!-- ===================== Notification Permission Screen ===================== -->
+    <string name="notif_permission_title">Don\'t miss a dose</string>
+    <string name="notif_permission_subtitle">MedDose needs to send you reminders at the right time — even when your phone is locked.</string>
+    <string name="notif_permission_allow_btn">Allow Notifications</string>
+    <string name="notif_permission_later_btn">Maybe later</string>
+    <string name="notif_permission_denied_title">Notifications are off</string>
+    <string name="notif_permission_denied_desc">You won\'t receive medication reminders. You can turn them on anytime in Settings.</string>
+    <string name="notif_permission_open_settings">Open Settings</string>
+
+    <!-- ===================== Profile &amp; Settings ===================== -->
+    <string name="settings_title">Profile &amp; Settings</string>
+    <string name="settings_name_label">Your Name</string>
+    <string name="settings_role_label">Your Role</string>
+    <string name="settings_notifications_label">Notification Reminders</string>
+    <string name="settings_notifications_desc">Receive alerts for scheduled doses</string>
+    <string name="settings_sound_label">Notification Sound</string>
+    <string name="settings_vibration_label">Vibration</string>
+    <string name="settings_snooze_label">Default Snooze Duration</string>
+    <string name="settings_snooze_10">10 minutes</string>
+    <string name="settings_snooze_15">15 minutes</string>
+    <string name="settings_snooze_30">30 minutes</string>
+    <string name="settings_premium_section">Premium</string>
+    <string name="settings_upgrade_btn">Upgrade to Premium</string>
+    <string name="settings_restore_purchase">Restore Purchase</string>
+    <string name="settings_about_section">About</string>
+    <string name="settings_version_label">App Version</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Use</string>
+    <string name="settings_feedback">Send Feedback</string>
+
+    <!-- ===================== Premium Paywall ===================== -->
+    <string name="paywall_title">Upgrade to Premium</string>
+    <string name="paywall_subtitle">Unlock the full MedDose experience</string>
+    <string name="paywall_price">₹199 / month</string>
+    <string name="paywall_feature_1">Unlimited medications</string>
+    <string name="paywall_feature_2">Caregiver alerts for missed doses</string>
+    <string name="paywall_feature_3">30-day history &amp; PDF export</string>
+    <string name="paywall_feature_4">Refill reminders &amp; pill count</string>
+    <string name="paywall_feature_5">Manage multiple profiles</string>
+    <string name="paywall_cta_btn">Start Free Trial</string>
+    <string name="paywall_restore_btn">Restore Purchase</string>
+    <string name="paywall_terms_note">Cancel anytime. Billed monthly via Google Play.</string>
+
+    <!-- ===================== Caregiver Connection ===================== -->
+    <string name="caregiver_title">Caregiver Connection</string>
+    <string name="caregiver_subtitle">Add a caregiver who will be notified if you miss a dose.</string>
+    <string name="caregiver_name_label">Caregiver\'s Name</string>
+    <string name="caregiver_name_hint">e.g. Priya Sharma</string>
+    <string name="caregiver_phone_label">Phone Number</string>
+    <string name="caregiver_phone_hint">e.g. +91 98765 43210</string>
+    <string name="caregiver_save_btn">Save Caregiver</string>
+    <string name="caregiver_remove_btn">Remove Caregiver</string>
+    <string name="caregiver_premium_notice">Caregiver alerts are a Premium feature.</string>
+    <string name="caregiver_upgrade_btn">Unlock Caregiver Alerts</string>
+
+    <!-- ===================== Empty / Error States ===================== -->
+    <string name="empty_state_no_meds_title">No medications added</string>
+    <string name="empty_state_no_meds_desc">Add your first medication to get started with reminders.</string>
+    <string name="empty_state_no_history_title">No history yet</string>
+    <string name="empty_state_no_history_desc">Your dose log will appear here once you start taking your medications.</string>
+    <string name="error_state_title">Oops! Something went wrong</string>
+    <string name="error_state_desc">We couldn\'t load your data. Please check your connection and try again.</string>
+    <string name="error_state_retry_btn">Try Again</string>
+
+    <!-- ===================== Navigation Labels ===================== -->
+    <string name="nav_home">Home</string>
+    <string name="nav_medications">Medications</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- ===================== Content Descriptions (Accessibility) ===================== -->
+    <string name="cd_app_logo">MedDose app logo</string>
+    <string name="cd_medication_icon">Medication icon</string>
+    <string name="cd_taken_icon">Dose taken checkmark</string>
+    <string name="cd_missed_icon">Missed dose indicator</string>
+    <string name="cd_add_medication">Add new medication</string>
+    <string name="cd_back_button">Go back</string>
+    <string name="cd_adherence_ring">Adherence score ring chart</string>
+    <string name="cd_caregiver_icon">Caregiver icon</string>
+    <string name="cd_premium_icon">Premium feature icon</string>
+
+    <!-- ===================== Missing Add Medication Strings ===================== -->
+    <string name="step_1_details">Step 1: Details</string>
+    <string name="step_2_times">Step 2: Times</string>
+    <string name="hint_med_name">Medication Name</string>
+    <string name="hint_dosage">Dosage (e.g. 1 Pill)</string>
+    <string name="label_type">Medication Type</string>
+    <string name="label_frequency">Frequency</string>
+    <string name="hint_notes">Notes (e.g. Take with food)</string>
+    <string name="btn_continue">Continue</string>
+    <string name="setup_times_desc">Set the times for your daily reminders.</string>
+    <string name="btn_save_med">Save Medication</string>
+    <string name="cd_delete">Delete</string>
+    <string name="error_loading">Error Loading</string>
+
+    <!-- ===================== Missing Dashboard & History Strings ===================== -->
+    <string name="empty_history_title">No History Yet</string>
+    <string name="empty_history_desc">Your dose history will appear here once you log medications.</string>
+    <string name="empty_dashboard_title">Dashboard Empty</string>
+    <string name="empty_dashboard_desc">No medications scheduled for today.</string>
+    <string name="btn_add_first_med">Add First Medication</string>
+    <string name="greeting_user">Hello, %1$s!</string>
+    <string name="daily_progress">Daily Progress</string>
+    <string name="todays_schedule">Today\'s Schedule</string>
+    <string name="medications_title">My Medications</string>
+    <string name="empty_meds_title">No Medications</string>
+    <string name="empty_meds_desc">You haven\'t added any medications yet.</string>
+    
+    <!-- ===================== Missing Onboarding Strings ===================== -->
+    <string name="onboarding_welcome_desc">Your personal medication companion. Let\'s get started.</string>
+    <string name="onboarding_role_desc">This helps us personalize your experience.</string>
+    <string name="role_patient">Patient</string>
+    <string name="role_caregiver">Caregiver</string>
+    <string name="onboarding_notif_desc">We need permission to send you reminder notifications.</string>
+    <string name="btn_allow_notif">Allow Notifications</string>
+    
+    <!-- Exact Alarm Permission -->
+    <string name="exact_alarm_permission_title">Exact Timing Needed</string>
+    <string name="exact_alarm_permission_desc">To remind you at exactly the right time, MedDose needs the &quot;Alarms &amp; Reminders&quot; permission. Without it, reminders may be delayed.</string>
+    <string name="exact_alarm_permission_btn_settings">Go to Settings</string>
+    <string name="exact_alarm_permission_btn_continue">Continue Anyway</string>
+    <!-- ===================== Caregiver Alerts Card (Settings) ===================== -->
+    <string name="caregiver_alerts_title">Caregiver Alerts</string>
+    <string name="caregiver_alerts_desc">We care about your health. Your family will be automatically notified if you miss a scheduled dose.</string>
+    <string name="caregiver_alerts_btn">Manage Contacts</string>
+
+</resources>
